@@ -1,0 +1,61 @@
+:root {
+  --bs-font-family: Light
+}
+body {
+  font-family: var(--bs-font-family);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.body_background {
+  background-color: #0B2447;
+  padding: 20px 24px;
+}
+
+.body_background_white  {
+  background-color: #F6F6F6;
+  padding: 20px 24px;
+}
+
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./Font/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
